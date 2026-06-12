@@ -30045,15 +30045,15 @@ const data4: Protocol[] = [
     audits: "0",
     gecko_id: null,
     cmcId: null,
-    tags: ["AMM"],
-    chains: ["GateLayer"],
-    module: "GateSwap/index.js",
+    category: "DEX Aggregator",
+    chains: ["Ethereum", "BSC", "Base", "Arbitrum", "Berachain", "ENI", "Optimism", "GateLayer", "Avalanche", "Blast", "Linea", "World Chain", "Sonic", "Polygon", "zkSync Era"],
+    module: "dummy.js",
     twitter: "Gate_Fun",
     parentProtocol: "parent#gate-products",
     listedAt: 1760577888,
     dimensions: {
-      fees: "gateswap",
-      dexs: "gateswap"
+      aggregators: "gateswap",
+      fees: "gateswap"
     }
   },
   {
