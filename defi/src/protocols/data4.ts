@@ -30046,7 +30046,7 @@ const data4: Protocol[] = [
     gecko_id: null,
     cmcId: null,
     category: "DEX Aggregator",
-    chains: ["Ethereum", "BSC", "Base", "Arbitrum", "Berachain", "ENI", "Optimism", "GateLayer", "Avalanche", "Blast", "Linea", "World Chain", "Sonic", "Polygon", "zkSync Era"],
+    chains: ["Ethereum", "BSC", "Base", "Arbitrum", "Berachain", "ENI", "Optimism", "GateLayer", "Avalanche", "Blast", "Linea", "World Chain", "Sonic", "Polygon", "zkSync Era", "Solana"],
     module: "dummy.js",
     twitter: "Gate_Fun",
     parentProtocol: "parent#gate-products",
