@@ -6203,5 +6203,27 @@ const data6: Protocol[] = [
       dexs: "wager-up-pilot",
     }
   },
+  {
+    id: "8003",
+    name: "Gate Swap Bridge Aggregator",
+    address: null,
+    symbol: "-",
+    url: "https://web3.gate.com/en/swap",
+    description: `GateSwap is the DEX and cross-chain aggregation platform of Gate.io. This entry tracks the cross-chain bridge aggregator volume routed through GateSwap, which finds optimal bridging routes across multiple networks.`,
+    chain: "GateLayer",
+    logo: `${baseIconsUrl}/gate-swap.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Bridge Aggregator",
+    chains: ["Ethereum", "BSC", "Base", "Arbitrum", "Berachain", "ENI", "Arc", "Optimism", "GateLayer", "Avalanche", "Blast", "Linea", "World Chain", "Sonic", "Polygon", "zkSync Era", "Solana", "Robinhood Chain"],
+    module: "dummy.js",
+    twitter: "Gate_Fun",
+    parentProtocol: "parent#gate-products",
+    listedAt: 1787137257,
+    dimensions: {
+      "bridge-aggregators": "gateswap",
+    },
+  },
 ];
 export default data6;
